@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="visual.css">
+  <title>Meu Currículo</title>
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <div class="meu-cabecalho">
+      <img src="Foto.png" width="100px" alt="Foto de perfil">
+      <h1>Rafael Saturnino Frazão</h1>
+    </div>
+  </header>
+
+  <!-- Navegação -->
+  <nav>
+    <ul>
+      <li><a href="#objetivo">Objetivo</a></li>
+      <li><a href="#historico">Histórico Profissional</a></li>
+      <li><a href="#formacao">Formação Acadêmica</a></li>
+      <li><a href="#contato">Contato</a></li>
+      <li><a href="#competencias">Competências</a></li>
+    </ul>
+  </nav>
+
+  <!-- Conteúdo Principal -->
+  <main>
+    <!-- Objetivo -->
+    <section id="objetivo">
+      <h2>Objetivo</h2>
+      <p>Em busca de recolocação profissional na função de Desenvolvedor Web.</p>
+    </section>
+
+    <!-- Histórico Profissional -->
+    <section id="historico">
+      <h2>Histórico Profissional</h2>
+      <ol>
+        <li>
+          <p>Técnico de CFTV, 2021 - atual.</p>
+        </li>
+        <li>
+          <p>Controle de acesso, 2020 - 2021.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Formação Acadêmica -->
+    <section id="formacao">
+      <h2>Formação Acadêmica</h2>
+      <p>Curso de HTML, CSS e JavaScript pelo <a href="https://www.alura.com.br" target="_blank"><span class="meu-curso-link">Grupo Alura</span></a>, 2022.</p>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato">
+      <h2>Contato</h2>
+      <address>
+        <p>Endereço</p>
+        <p>55 11 xxxx-xxxx</p>
+        <p>email@hotmail.com</p>
+      </address>
+    </section>
+
+    <!-- Competências -->
+    <section id="competencias">
+      <h2>Competências</h2>
+      <ul>
+        <li>Dedicado</li>
+        <li>Atencioso</li>
+        <li>Auto Crítico</li>
+        <li>Evolução constante</li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p class="copyright">© Copyright Rafael 2022</p>
+  </footer>
+</body>
+</html>
